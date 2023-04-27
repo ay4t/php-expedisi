@@ -2,16 +2,18 @@
 
 /**
  * STUKTUR FOLDER dari module ini sebagai berikut:
-    src/
-    ├── Exception/
-    │   └── ProviderException.php
-    ├── Provider/
-    │   ├── AbstractProvider.php
-    │   ├── Endpoint.php
-    │   ├── RajaOngkir.php
-    ├── Util/
-    │   └── Request.php
-    ├── PHPExpedisi.php
+ *  src//
+ *  ├── Exception/
+ *  │   └── ProviderException.php
+ *  ├── Interfaces/
+ *  │   └── ProviderInterface.php
+ *  ├── Provider/
+ *  │   ├── AbstractProvider.php
+ *  │   └── RajaOngkir.php
+ *  ├── Util/
+ *  │   ├── Endpoint.php
+ *  │   └── Request.php
+ *  └── Vendor.php
  */
 
 namespace Ay4t\PHPExpedisi;
@@ -20,12 +22,12 @@ namespace Ay4t\PHPExpedisi;
 /**
  * Summary of PHPExpedisi
  */
-class PHPExpedisi
+class Vendor
 {
    
    /**
     * Summary of providers
-    * @var string
+    * @var \Ay4t\PHPExpedisi\Provider\AbstractProvider
     */
    public $providers;
 

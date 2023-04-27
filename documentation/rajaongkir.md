@@ -9,7 +9,7 @@ Pertama Anda harus instansiasi class dan properti seperti dibawah ini:
 ```
 $apiKey     = 'your_api_key';
 
-$expedisi   = new Ay4t\PHPExpedisi\PHPExpedisi('RajaOngkir');
+$expedisi   = new Ay4t\PHPExpedisi\Vendor('RajaOngkir');
 $providers  = $expedisi->providers;
 $providers->setTipeAkun('pro');
 $providers->setApiKey($apiKey);

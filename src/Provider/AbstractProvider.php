@@ -1,11 +1,12 @@
 <?php
 
 namespace Ay4t\PHPExpedisi\Provider;
+use Ay4t\PHPExpedisi\Interfaces\ProviderInterface;
 
 /**
  * class ini berisi properti dan method yang akan selalu ada dan digunakan dalam class providers
  */
-abstract class AbstractProvider
+abstract class AbstractProvider implements ProviderInterface
 {
     /**
      * @var string
